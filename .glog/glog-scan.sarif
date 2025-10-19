@@ -12,31 +12,7 @@
           "informationUri": "https://www.glog.ai",
           "rules": [
             {
-              "id": "b921c307-ee9c-374a-8432-46c39337c81f",
-              "name": "resources.rules.arbitrary-sleep",
-              "shortDescription": {
-                "text": "Opengrep Finding: resources.rules.arbitrary-sleep"
-              },
-              "fullDescription": {
-                "text": "time.sleep() call; did you mean to leave this in?"
-              },
-              "defaultConfiguration": {
-                "enabled": true,
-                "level": "error"
-              },
-              "help": {
-                "text": "time.sleep() call; did you mean to leave this in?\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
-                "markdown": "time.sleep() call; did you mean to leave this in?\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
-              },
-              "properties": {
-                "precision": "very-high",
-                "tags": [
-                  "resources.rules.arbitrary-sleep"
-                ]
-              }
-            },
-            {
-              "id": "876e214b-ed6c-395d-880f-b70b1660990c",
+              "id": "8b33f914-f97b-3788-96e0-81a6724b60dc",
               "name": "resources.rules.return-in-init",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.return-in-init"
@@ -85,7 +61,31 @@
               }
             },
             {
-              "id": "8b33f914-f97b-3788-96e0-81a6724b60dc",
+              "id": "b921c307-ee9c-374a-8432-46c39337c81f",
+              "name": "resources.rules.arbitrary-sleep",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.arbitrary-sleep"
+              },
+              "fullDescription": {
+                "text": "time.sleep() call; did you mean to leave this in?"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "error"
+              },
+              "help": {
+                "text": "time.sleep() call; did you mean to leave this in?\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "time.sleep() call; did you mean to leave this in?\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
+              },
+              "properties": {
+                "precision": "very-high",
+                "tags": [
+                  "resources.rules.arbitrary-sleep"
+                ]
+              }
+            },
+            {
+              "id": "876e214b-ed6c-395d-880f-b70b1660990c",
               "name": "resources.rules.return-in-init",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.return-in-init"
@@ -105,6 +105,30 @@
                 "precision": "very-high",
                 "tags": [
                   "resources.rules.return-in-init"
+                ]
+              }
+            },
+            {
+              "id": "44a829c3-1a2b-3c13-87bb-c4e83bd13213",
+              "name": "resources.rules.useless-inner-function",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.useless-inner-function"
+              },
+              "fullDescription": {
+                "text": "function `$FF` is defined inside a function but never used"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "error"
+              },
+              "help": {
+                "text": "function `$FF` is defined inside a function but never used\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "function `$FF` is defined inside a function but never used\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
+              },
+              "properties": {
+                "precision": "very-high",
+                "tags": [
+                  "resources.rules.useless-inner-function"
                 ]
               }
             },
@@ -181,31 +205,7 @@
               }
             },
             {
-              "id": "44a829c3-1a2b-3c13-87bb-c4e83bd13213",
-              "name": "resources.rules.useless-inner-function",
-              "shortDescription": {
-                "text": "Opengrep Finding: resources.rules.useless-inner-function"
-              },
-              "fullDescription": {
-                "text": "function `$FF` is defined inside a function but never used"
-              },
-              "defaultConfiguration": {
-                "enabled": true,
-                "level": "error"
-              },
-              "help": {
-                "text": "function `$FF` is defined inside a function but never used\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
-                "markdown": "function `$FF` is defined inside a function but never used\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
-              },
-              "properties": {
-                "precision": "very-high",
-                "tags": [
-                  "resources.rules.useless-inner-function"
-                ]
-              }
-            },
-            {
-              "id": "2d0efcd5-a897-392a-84bd-0a7ca2b7133a",
+              "id": "b686f8b4-283e-31e4-a3ae-c6dcc3d30db5",
               "name": "resources.rules.useless-inner-function",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.useless-inner-function"
@@ -253,7 +253,7 @@
               }
             },
             {
-              "id": "292563c5-49c4-3bcb-8112-683daf826f0b",
+              "id": "2d0efcd5-a897-392a-84bd-0a7ca2b7133a",
               "name": "resources.rules.useless-inner-function",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.useless-inner-function"
@@ -277,7 +277,7 @@
               }
             },
             {
-              "id": "b686f8b4-283e-31e4-a3ae-c6dcc3d30db5",
+              "id": "292563c5-49c4-3bcb-8112-683daf826f0b",
               "name": "resources.rules.useless-inner-function",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.useless-inner-function"
@@ -325,7 +325,7 @@
               }
             },
             {
-              "id": "86836105-fd43-334f-9fb1-b0f40df910fb",
+              "id": "9909a65e-2bd7-3aa2-a76f-f3105b943470",
               "name": "resources.rules.useless-inner-function",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.useless-inner-function"
@@ -373,31 +373,7 @@
               }
             },
             {
-              "id": "9909a65e-2bd7-3aa2-a76f-f3105b943470",
-              "name": "resources.rules.useless-inner-function",
-              "shortDescription": {
-                "text": "Opengrep Finding: resources.rules.useless-inner-function"
-              },
-              "fullDescription": {
-                "text": "function `$FF` is defined inside a function but never used"
-              },
-              "defaultConfiguration": {
-                "enabled": true,
-                "level": "error"
-              },
-              "help": {
-                "text": "function `$FF` is defined inside a function but never used\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
-                "markdown": "function `$FF` is defined inside a function but never used\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
-              },
-              "properties": {
-                "precision": "very-high",
-                "tags": [
-                  "resources.rules.useless-inner-function"
-                ]
-              }
-            },
-            {
-              "id": "fbf53be0-e431-32b6-aede-9d035d4cac56",
+              "id": "86836105-fd43-334f-9fb1-b0f40df910fb",
               "name": "resources.rules.useless-inner-function",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.useless-inner-function"
@@ -445,6 +421,54 @@
               }
             },
             {
+              "id": "2f042319-767f-3ab3-b608-83636a86fcb5",
+              "name": "resources.rules.useless-inner-function",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.useless-inner-function"
+              },
+              "fullDescription": {
+                "text": "function `$FF` is defined inside a function but never used"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "error"
+              },
+              "help": {
+                "text": "function `$FF` is defined inside a function but never used\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "function `$FF` is defined inside a function but never used\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
+              },
+              "properties": {
+                "precision": "very-high",
+                "tags": [
+                  "resources.rules.useless-inner-function"
+                ]
+              }
+            },
+            {
+              "id": "fbf53be0-e431-32b6-aede-9d035d4cac56",
+              "name": "resources.rules.useless-inner-function",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.useless-inner-function"
+              },
+              "fullDescription": {
+                "text": "function `$FF` is defined inside a function but never used"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "error"
+              },
+              "help": {
+                "text": "function `$FF` is defined inside a function but never used\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "function `$FF` is defined inside a function but never used\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
+              },
+              "properties": {
+                "precision": "very-high",
+                "tags": [
+                  "resources.rules.useless-inner-function"
+                ]
+              }
+            },
+            {
               "id": "81a972f5-51c9-3f5e-86a6-a7b99a6f6dea",
               "name": "resources.rules.useless-inner-function",
               "shortDescription": {
@@ -469,7 +493,7 @@
               }
             },
             {
-              "id": "2f042319-767f-3ab3-b608-83636a86fcb5",
+              "id": "21bb9a3f-36e0-3649-9959-c20300c021be",
               "name": "resources.rules.useless-inner-function",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.useless-inner-function"
@@ -489,6 +513,31 @@
                 "precision": "very-high",
                 "tags": [
                   "resources.rules.useless-inner-function"
+                ]
+              }
+            },
+            {
+              "id": "02a0bc4d-26fc-3526-8703-44c657385082",
+              "name": "python.lang.security.deserialization.pickle.avoid-pickle",
+              "shortDescription": {
+                "text": "Opengrep Finding: python.lang.security.deserialization.pickle.avoid-pickle"
+              },
+              "fullDescription": {
+                "text": "Avoid using `pickle`, which is known to lead to code execution vulnerabilities. When unpickling, the serialized data could be manipulated to run arbitrary code. Instead, consider serializing the relevant data as JSON or a similar text-based serialization format."
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "helpUri": "https://semgrep.dev/r/python.lang.security.deserialization.pickle.avoid-pickle",
+              "help": {
+                "text": "Avoid using `pickle`, which is known to lead to code execution vulnerabilities. When unpickling, the serialized data could be manipulated to run arbitrary code. Instead, consider serializing the relevant data as JSON or a similar text-based serialization format.\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Avoid using `pickle`, which is known to lead to code execution vulnerabilities. When unpickling, the serialized data could be manipulated to run arbitrary code. Instead, consider serializing the relevant data as JSON or a similar text-based serialization format.\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [Semgrep Rule](https://semgrep.dev/r/python.lang.security.deserialization.pickle.avoid-pickle)\n - [https://docs.python.org/3/library/pickle.html](https://docs.python.org/3/library/pickle.html)\n"
+              },
+              "properties": {
+                "precision": "very-high",
+                "tags": [
+                  "python.lang.security.deserialization.pickle.avoid-pickle"
                 ]
               }
             },
@@ -518,56 +567,7 @@
               }
             },
             {
-              "id": "21bb9a3f-36e0-3649-9959-c20300c021be",
-              "name": "resources.rules.useless-inner-function",
-              "shortDescription": {
-                "text": "Opengrep Finding: resources.rules.useless-inner-function"
-              },
-              "fullDescription": {
-                "text": "function `$FF` is defined inside a function but never used"
-              },
-              "defaultConfiguration": {
-                "enabled": true,
-                "level": "error"
-              },
-              "help": {
-                "text": "function `$FF` is defined inside a function but never used\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
-                "markdown": "function `$FF` is defined inside a function but never used\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
-              },
-              "properties": {
-                "precision": "very-high",
-                "tags": [
-                  "resources.rules.useless-inner-function"
-                ]
-              }
-            },
-            {
               "id": "4bbb54c4-e6ec-3876-a17b-e90e9aa809cc",
-              "name": "python.lang.security.deserialization.pickle.avoid-pickle",
-              "shortDescription": {
-                "text": "Opengrep Finding: python.lang.security.deserialization.pickle.avoid-pickle"
-              },
-              "fullDescription": {
-                "text": "Avoid using `pickle`, which is known to lead to code execution vulnerabilities. When unpickling, the serialized data could be manipulated to run arbitrary code. Instead, consider serializing the relevant data as JSON or a similar text-based serialization format."
-              },
-              "defaultConfiguration": {
-                "enabled": true,
-                "level": "warning"
-              },
-              "helpUri": "https://semgrep.dev/r/python.lang.security.deserialization.pickle.avoid-pickle",
-              "help": {
-                "text": "Avoid using `pickle`, which is known to lead to code execution vulnerabilities. When unpickling, the serialized data could be manipulated to run arbitrary code. Instead, consider serializing the relevant data as JSON or a similar text-based serialization format.\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
-                "markdown": "Avoid using `pickle`, which is known to lead to code execution vulnerabilities. When unpickling, the serialized data could be manipulated to run arbitrary code. Instead, consider serializing the relevant data as JSON or a similar text-based serialization format.\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [Semgrep Rule](https://semgrep.dev/r/python.lang.security.deserialization.pickle.avoid-pickle)\n - [https://docs.python.org/3/library/pickle.html](https://docs.python.org/3/library/pickle.html)\n"
-              },
-              "properties": {
-                "precision": "very-high",
-                "tags": [
-                  "python.lang.security.deserialization.pickle.avoid-pickle"
-                ]
-              }
-            },
-            {
-              "id": "02a0bc4d-26fc-3526-8703-44c657385082",
               "name": "python.lang.security.deserialization.pickle.avoid-pickle",
               "shortDescription": {
                 "text": "Opengrep Finding: python.lang.security.deserialization.pickle.avoid-pickle"
@@ -617,7 +617,7 @@
               }
             },
             {
-              "id": "3d561b4a-c68d-3a4a-be9e-d00052256705",
+              "id": "acc66b60-6c39-35fe-a42d-68ab9478e429",
               "name": "python.lang.security.deserialization.pickle.avoid-pickle",
               "shortDescription": {
                 "text": "Opengrep Finding: python.lang.security.deserialization.pickle.avoid-pickle"
@@ -642,7 +642,7 @@
               }
             },
             {
-              "id": "acc66b60-6c39-35fe-a42d-68ab9478e429",
+              "id": "3d561b4a-c68d-3a4a-be9e-d00052256705",
               "name": "python.lang.security.deserialization.pickle.avoid-pickle",
               "shortDescription": {
                 "text": "Opengrep Finding: python.lang.security.deserialization.pickle.avoid-pickle"
@@ -692,30 +692,6 @@
               }
             },
             {
-              "id": "978580f1-f9a6-3b84-9b59-87e5348b05b1",
-              "name": "resources.rules.pass-body-fn",
-              "shortDescription": {
-                "text": "Opengrep Finding: resources.rules.pass-body-fn"
-              },
-              "fullDescription": {
-                "text": "`pass` is the body of function $X. Consider removing this or raise NotImplementedError() if this is a TODO"
-              },
-              "defaultConfiguration": {
-                "enabled": true,
-                "level": "warning"
-              },
-              "help": {
-                "text": "`pass` is the body of function $X. Consider removing this or raise NotImplementedError() if this is a TODO\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
-                "markdown": "`pass` is the body of function $X. Consider removing this or raise NotImplementedError() if this is a TODO\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
-              },
-              "properties": {
-                "precision": "very-high",
-                "tags": [
-                  "resources.rules.pass-body-fn"
-                ]
-              }
-            },
-            {
               "id": "7b161f07-d5c4-3bb9-b270-ad71dd65ecac",
               "name": "python.lang.security.deserialization.pickle.avoid-pickle",
               "shortDescription": {
@@ -761,6 +737,30 @@
                 "precision": "very-high",
                 "tags": [
                   "resources.rules.arbitrary-sleep"
+                ]
+              }
+            },
+            {
+              "id": "978580f1-f9a6-3b84-9b59-87e5348b05b1",
+              "name": "resources.rules.pass-body-fn",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.pass-body-fn"
+              },
+              "fullDescription": {
+                "text": "`pass` is the body of function $X. Consider removing this or raise NotImplementedError() if this is a TODO"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "help": {
+                "text": "`pass` is the body of function $X. Consider removing this or raise NotImplementedError() if this is a TODO\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "`pass` is the body of function $X. Consider removing this or raise NotImplementedError() if this is a TODO\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
+              },
+              "properties": {
+                "precision": "very-high",
+                "tags": [
+                  "resources.rules.pass-body-fn"
                 ]
               }
             },
@@ -826,6 +826,37 @@
       "language": "en-US",
       "results": [
         {
+          "ruleId": "6d62f739-dc21-33a1-bc06-eef77cb2870e",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Found 'importlib.resources', which is a module only available on Python 3.7+. This does not work in lower versions, and therefore is not backwards compatible. Use importlib_resources instead for older Python versions."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dask_cuda/_version.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 1,
+                  "endLine": 15,
+                  "endColumn": 27,
+                  "snippet": {
+                    "text": "import importlib.resources"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "085bf14d36d036c013b6f4a109fa0cf24118815d6775b67b66df1f6f08713f112b3e8ec19cd6d34fe486f11bf7558e08b0180c627c30a4929dbed4acccb39548_0"
+          },
+          "properties": {}
+        },
+        {
           "ruleId": "b921c307-ee9c-374a-8432-46c39337c81f",
           "kind": "fail",
           "level": "warning",
@@ -888,64 +919,33 @@
           "properties": {}
         },
         {
-          "ruleId": "6d62f739-dc21-33a1-bc06-eef77cb2870e",
+          "ruleId": "44a829c3-1a2b-3c13-87bb-c4e83bd13213",
           "kind": "fail",
           "level": "warning",
           "message": {
-            "text": "Found 'importlib.resources', which is a module only available on Python 3.7+. This does not work in lower versions, and therefore is not backwards compatible. Use importlib_resources instead for older Python versions."
+            "text": "function `get_device_memory_objects_cupy` is defined inside a function but never used"
           },
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "dask_cuda/_version.py",
+                  "uri": "dask_cuda/get_device_memory_objects.py",
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 15,
-                  "startColumn": 1,
-                  "endLine": 15,
-                  "endColumn": 27,
+                  "startLine": 85,
+                  "startColumn": 5,
+                  "endLine": 87,
+                  "endColumn": 25,
                   "snippet": {
-                    "text": "import importlib.resources"
+                    "text": "    @dispatch.register(MemoryPointer)\n    def get_device_memory_objects_cupy(obj):\n        return [obj.mem]"
                   }
                 }
               }
             }
           ],
           "fingerprints": {
-            "matchBasedId/v1": "085bf14d36d036c013b6f4a109fa0cf24118815d6775b67b66df1f6f08713f112b3e8ec19cd6d34fe486f11bf7558e08b0180c627c30a4929dbed4acccb39548_0"
-          },
-          "properties": {}
-        },
-        {
-          "ruleId": "8b33f914-f97b-3788-96e0-81a6724b60dc",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "`return` should never appear inside a class __init__ function. This will cause a runtime error."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "dask_cuda/cuda_worker.py",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 167,
-                  "startColumn": 30,
-                  "endLine": 167,
-                  "endColumn": 32,
-                  "snippet": {
-                    "text": "            data = lambda _: {}"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "afd24de7c4a034c8a674f458daf1b543415831a2cf82ea79935af6fcd0fb971c33cc8c97e7dfef6e9d9d017e8bb47ef17bf6ba8d85b1b7733882aa754ada713b_0"
+            "matchBasedId/v1": "a398ee76f51839406b9179f6e8449fc3ed659c3296cbfd5df81737eb4bbe45f5efc25231f4abf62b19f949cfd6275234c00bd21848e11ec24cf95b4c3fa82260_0"
           },
           "properties": {}
         },
@@ -1043,11 +1043,11 @@
           "properties": {}
         },
         {
-          "ruleId": "44a829c3-1a2b-3c13-87bb-c4e83bd13213",
+          "ruleId": "b686f8b4-283e-31e4-a3ae-c6dcc3d30db5",
           "kind": "fail",
           "level": "warning",
           "message": {
-            "text": "function `get_device_memory_objects_cupy` is defined inside a function but never used"
+            "text": "function `get_device_memory_objects_cudf_series` is defined inside a function but never used"
           },
           "locations": [
             {
@@ -1057,50 +1057,19 @@
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 85,
+                  "startLine": 108,
                   "startColumn": 5,
-                  "endLine": 87,
-                  "endColumn": 25,
+                  "endLine": 110,
+                  "endColumn": 60,
                   "snippet": {
-                    "text": "    @dispatch.register(MemoryPointer)\n    def get_device_memory_objects_cupy(obj):\n        return [obj.mem]"
+                    "text": "    @dispatch.register(cudf.core.series.Series)\n    def get_device_memory_objects_cudf_series(obj):\n        return dispatch(obj._index) + dispatch(obj._column)"
                   }
                 }
               }
             }
           ],
           "fingerprints": {
-            "matchBasedId/v1": "a398ee76f51839406b9179f6e8449fc3ed659c3296cbfd5df81737eb4bbe45f5efc25231f4abf62b19f949cfd6275234c00bd21848e11ec24cf95b4c3fa82260_0"
-          },
-          "properties": {}
-        },
-        {
-          "ruleId": "2d0efcd5-a897-392a-84bd-0a7ca2b7133a",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "function `get_device_memory_objects_cudf_indexed_frame` is defined inside a function but never used"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "dask_cuda/get_device_memory_objects.py",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 104,
-                  "startColumn": 5,
-                  "endLine": 106,
-                  "endColumn": 80,
-                  "snippet": {
-                    "text": "    @dispatch.register(cudf.core.indexed_frame.IndexedFrame)\n    def get_device_memory_objects_cudf_indexed_frame(obj):\n        return dispatch(obj._index) + get_device_memory_objects_cudf_frame(obj)"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "774eef7a36e544c8fbbc1688238fb266dea8d91ae852bbf1d50e64ebf1a5f721892fb3b46301b2b8370757a85540caf23dcf1d30533bfba9fdaaac14dd439f52_0"
+            "matchBasedId/v1": "774eef7a36e544c8fbbc1688238fb266dea8d91ae852bbf1d50e64ebf1a5f721892fb3b46301b2b8370757a85540caf23dcf1d30533bfba9fdaaac14dd439f52_1"
           },
           "properties": {}
         },
@@ -1136,6 +1105,37 @@
           "properties": {}
         },
         {
+          "ruleId": "2d0efcd5-a897-392a-84bd-0a7ca2b7133a",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "function `get_device_memory_objects_cudf_indexed_frame` is defined inside a function but never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dask_cuda/get_device_memory_objects.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 104,
+                  "startColumn": 5,
+                  "endLine": 106,
+                  "endColumn": 80,
+                  "snippet": {
+                    "text": "    @dispatch.register(cudf.core.indexed_frame.IndexedFrame)\n    def get_device_memory_objects_cudf_indexed_frame(obj):\n        return dispatch(obj._index) + get_device_memory_objects_cudf_frame(obj)"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "774eef7a36e544c8fbbc1688238fb266dea8d91ae852bbf1d50e64ebf1a5f721892fb3b46301b2b8370757a85540caf23dcf1d30533bfba9fdaaac14dd439f52_0"
+          },
+          "properties": {}
+        },
+        {
           "ruleId": "292563c5-49c4-3bcb-8112-683daf826f0b",
           "kind": "fail",
           "level": "warning",
@@ -1163,37 +1163,6 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "774eef7a36e544c8fbbc1688238fb266dea8d91ae852bbf1d50e64ebf1a5f721892fb3b46301b2b8370757a85540caf23dcf1d30533bfba9fdaaac14dd439f52_3"
-          },
-          "properties": {}
-        },
-        {
-          "ruleId": "b686f8b4-283e-31e4-a3ae-c6dcc3d30db5",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "function `get_device_memory_objects_cudf_series` is defined inside a function but never used"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "dask_cuda/get_device_memory_objects.py",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 108,
-                  "startColumn": 5,
-                  "endLine": 110,
-                  "endColumn": 60,
-                  "snippet": {
-                    "text": "    @dispatch.register(cudf.core.series.Series)\n    def get_device_memory_objects_cudf_series(obj):\n        return dispatch(obj._index) + dispatch(obj._column)"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "774eef7a36e544c8fbbc1688238fb266dea8d91ae852bbf1d50e64ebf1a5f721892fb3b46301b2b8370757a85540caf23dcf1d30533bfba9fdaaac14dd439f52_1"
           },
           "properties": {}
         },
@@ -1229,33 +1198,33 @@
           "properties": {}
         },
         {
-          "ruleId": "86836105-fd43-334f-9fb1-b0f40df910fb",
+          "ruleId": "9909a65e-2bd7-3aa2-a76f-f3105b943470",
           "kind": "fail",
           "level": "warning",
           "message": {
-            "text": "function `is_device_object_cudf_dataframe` is defined inside a function but never used"
+            "text": "function `sizeof_cupy_ndarray` is defined inside a function but never used"
           },
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "dask_cuda/is_device_object.py",
+                  "uri": "dask_cuda/get_device_memory_objects.py",
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 30,
+                  "startLine": 136,
                   "startColumn": 5,
-                  "endLine": 32,
-                  "endColumn": 20,
+                  "endLine": 138,
+                  "endColumn": 29,
                   "snippet": {
-                    "text": "    @is_device_object.register(cudf.DataFrame)\n    def is_device_object_cudf_dataframe(df):\n        return True"
+                    "text": "    @sizeof.register(cupy.ndarray)\n    def sizeof_cupy_ndarray(x):\n        return int(x.nbytes)"
                   }
                 }
               }
             }
           ],
           "fingerprints": {
-            "matchBasedId/v1": "3e62a1566ea5e0d28f0bf0a4c97f7fe0cff6db3c6908873023b7f3c4082d3bbca6a682b371219d349d52d7f25ebcce4193671bf3b2868873f705e37051fc6b06_0"
+            "matchBasedId/v1": "25764a3e5dc736891220358bff84c62e35a83e4daa75dda7f45c3385a7dd070abdbd3b6794876c12a197119e5a8e216a357b44003a55840df99db549c54a333a_1"
           },
           "properties": {}
         },
@@ -1291,42 +1260,11 @@
           "properties": {}
         },
         {
-          "ruleId": "9909a65e-2bd7-3aa2-a76f-f3105b943470",
+          "ruleId": "86836105-fd43-334f-9fb1-b0f40df910fb",
           "kind": "fail",
           "level": "warning",
           "message": {
-            "text": "function `sizeof_cupy_ndarray` is defined inside a function but never used"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "dask_cuda/get_device_memory_objects.py",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 136,
-                  "startColumn": 5,
-                  "endLine": 138,
-                  "endColumn": 29,
-                  "snippet": {
-                    "text": "    @sizeof.register(cupy.ndarray)\n    def sizeof_cupy_ndarray(x):\n        return int(x.nbytes)"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "25764a3e5dc736891220358bff84c62e35a83e4daa75dda7f45c3385a7dd070abdbd3b6794876c12a197119e5a8e216a357b44003a55840df99db549c54a333a_1"
-          },
-          "properties": {}
-        },
-        {
-          "ruleId": "fbf53be0-e431-32b6-aede-9d035d4cac56",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "function `is_device_object_cudf_series` is defined inside a function but never used"
+            "text": "function `is_device_object_cudf_dataframe` is defined inside a function but never used"
           },
           "locations": [
             {
@@ -1336,19 +1274,19 @@
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 34,
+                  "startLine": 30,
                   "startColumn": 5,
-                  "endLine": 36,
+                  "endLine": 32,
                   "endColumn": 20,
                   "snippet": {
-                    "text": "    @is_device_object.register(cudf.Series)\n    def is_device_object_cudf_series(s):\n        return True"
+                    "text": "    @is_device_object.register(cudf.DataFrame)\n    def is_device_object_cudf_dataframe(df):\n        return True"
                   }
                 }
               }
             }
           ],
           "fingerprints": {
-            "matchBasedId/v1": "3e62a1566ea5e0d28f0bf0a4c97f7fe0cff6db3c6908873023b7f3c4082d3bbca6a682b371219d349d52d7f25ebcce4193671bf3b2868873f705e37051fc6b06_1"
+            "matchBasedId/v1": "3e62a1566ea5e0d28f0bf0a4c97f7fe0cff6db3c6908873023b7f3c4082d3bbca6a682b371219d349d52d7f25ebcce4193671bf3b2868873f705e37051fc6b06_0"
           },
           "properties": {}
         },
@@ -1384,37 +1322,6 @@
           "properties": {}
         },
         {
-          "ruleId": "81a972f5-51c9-3f5e-86a6-a7b99a6f6dea",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "function `is_device_object_cudf_index` is defined inside a function but never used"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "dask_cuda/is_spillable_object.py",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 37,
-                  "startColumn": 5,
-                  "endLine": 39,
-                  "endColumn": 38,
-                  "snippet": {
-                    "text": "    @is_spillable_object.register(cudf.BaseIndex)\n    def is_device_object_cudf_index(s):\n        return cudf_spilling_status()"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "7b790214fddd4932b2461c41500c2297f59523918d1658198932aca318bb73b190b7fff23d7653ecb15dc6c071af05ecb9aa1fff9be2b12678ce217fa13723bd_1"
-          },
-          "properties": {}
-        },
-        {
           "ruleId": "2f042319-767f-3ab3-b608-83636a86fcb5",
           "kind": "fail",
           "level": "warning",
@@ -1446,33 +1353,64 @@
           "properties": {}
         },
         {
-          "ruleId": "f6b99480-a611-3db9-8295-b0ebee2207b0",
+          "ruleId": "fbf53be0-e431-32b6-aede-9d035d4cac56",
           "kind": "fail",
           "level": "warning",
           "message": {
-            "text": "Untrusted user input in `importlib.import_module()` function allows an attacker to load arbitrary code. Avoid dynamic values in `importlib.import_module()` or use a whitelist to prevent running untrusted code."
+            "text": "function `is_device_object_cudf_series` is defined inside a function but never used"
           },
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "dask_cuda/plugins.py",
+                  "uri": "dask_cuda/is_device_object.py",
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 122,
-                  "startColumn": 13,
-                  "endLine": 122,
-                  "endColumn": 39,
+                  "startLine": 34,
+                  "startColumn": 5,
+                  "endLine": 36,
+                  "endColumn": 20,
                   "snippet": {
-                    "text": "            importlib.import_module(l)"
+                    "text": "    @is_device_object.register(cudf.Series)\n    def is_device_object_cudf_series(s):\n        return True"
                   }
                 }
               }
             }
           ],
           "fingerprints": {
-            "matchBasedId/v1": "afb85bbb97c4a21023f6c589e84d915ba4ca7799f0c7a17228d2deb1ceca033742c3549d60f97d0232d640d9750d1a7db3ae3b475e07c0d2b5c063761964e7bf_0"
+            "matchBasedId/v1": "3e62a1566ea5e0d28f0bf0a4c97f7fe0cff6db3c6908873023b7f3c4082d3bbca6a682b371219d349d52d7f25ebcce4193671bf3b2868873f705e37051fc6b06_1"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "81a972f5-51c9-3f5e-86a6-a7b99a6f6dea",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "function `is_device_object_cudf_index` is defined inside a function but never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dask_cuda/is_spillable_object.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 5,
+                  "endLine": 39,
+                  "endColumn": 38,
+                  "snippet": {
+                    "text": "    @is_spillable_object.register(cudf.BaseIndex)\n    def is_device_object_cudf_index(s):\n        return cudf_spilling_status()"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "7b790214fddd4932b2461c41500c2297f59523918d1658198932aca318bb73b190b7fff23d7653ecb15dc6c071af05ecb9aa1fff9be2b12678ce217fa13723bd_1"
           },
           "properties": {}
         },
@@ -1508,37 +1446,6 @@
           "properties": {}
         },
         {
-          "ruleId": "4bbb54c4-e6ec-3876-a17b-e90e9aa809cc",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Avoid using `pickle`, which is known to lead to code execution vulnerabilities. When unpickling, the serialized data could be manipulated to run arbitrary code. Instead, consider serializing the relevant data as JSON or a similar text-based serialization format."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "dask_cuda/proxy_object.py",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 87,
-                  "startColumn": 35,
-                  "endLine": 87,
-                  "endColumn": 57,
-                  "snippet": {
-                    "text": "            subclass_serialized = pickle.dumps(subclass)"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "67e171bb6fb9343167a81d7477e17844475a2fd9fb575a9c2430d72b5e0fc54054e416e7d52f4d47f994d0c389cb9bc3ea1b06aa3f3a6fe1c943f54be5e736ea_0"
-          },
-          "properties": {}
-        },
-        {
           "ruleId": "02a0bc4d-26fc-3526-8703-44c657385082",
           "kind": "fail",
           "level": "warning",
@@ -1566,6 +1473,68 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "67e171bb6fb9343167a81d7477e17844475a2fd9fb575a9c2430d72b5e0fc54054e416e7d52f4d47f994d0c389cb9bc3ea1b06aa3f3a6fe1c943f54be5e736ea_1"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "f6b99480-a611-3db9-8295-b0ebee2207b0",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Untrusted user input in `importlib.import_module()` function allows an attacker to load arbitrary code. Avoid dynamic values in `importlib.import_module()` or use a whitelist to prevent running untrusted code."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dask_cuda/plugins.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 122,
+                  "startColumn": 13,
+                  "endLine": 122,
+                  "endColumn": 39,
+                  "snippet": {
+                    "text": "            importlib.import_module(l)"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "afb85bbb97c4a21023f6c589e84d915ba4ca7799f0c7a17228d2deb1ceca033742c3549d60f97d0232d640d9750d1a7db3ae3b475e07c0d2b5c063761964e7bf_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "4bbb54c4-e6ec-3876-a17b-e90e9aa809cc",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Avoid using `pickle`, which is known to lead to code execution vulnerabilities. When unpickling, the serialized data could be manipulated to run arbitrary code. Instead, consider serializing the relevant data as JSON or a similar text-based serialization format."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dask_cuda/proxy_object.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 87,
+                  "startColumn": 35,
+                  "endLine": 87,
+                  "endColumn": 57,
+                  "snippet": {
+                    "text": "            subclass_serialized = pickle.dumps(subclass)"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "67e171bb6fb9343167a81d7477e17844475a2fd9fb575a9c2430d72b5e0fc54054e416e7d52f4d47f994d0c389cb9bc3ea1b06aa3f3a6fe1c943f54be5e736ea_0"
           },
           "properties": {}
         },
@@ -1601,37 +1570,6 @@
           "properties": {}
         },
         {
-          "ruleId": "3d561b4a-c68d-3a4a-be9e-d00052256705",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Avoid using `pickle`, which is known to lead to code execution vulnerabilities. When unpickling, the serialized data could be manipulated to run arbitrary code. Instead, consider serializing the relevant data as JSON or a similar text-based serialization format."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "dask_cuda/proxy_object.py",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 442,
-                  "startColumn": 24,
-                  "endLine": 442,
-                  "endColumn": 50,
-                  "snippet": {
-                    "text": "            subclass = pickle.loads(pxy.subclass)"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "7b1ed2a02cb6538e9811fef730503051312b3ac5b54a0e6502cf50e6fd2f0c6a1f8991fbc2def9974325ec1bb2494d584fe7443bf1657e9d2a5948a82aeb4acf_0"
-          },
-          "properties": {}
-        },
-        {
           "ruleId": "acc66b60-6c39-35fe-a42d-68ab9478e429",
           "kind": "fail",
           "level": "warning",
@@ -1663,6 +1601,37 @@
           "properties": {}
         },
         {
+          "ruleId": "3d561b4a-c68d-3a4a-be9e-d00052256705",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Avoid using `pickle`, which is known to lead to code execution vulnerabilities. When unpickling, the serialized data could be manipulated to run arbitrary code. Instead, consider serializing the relevant data as JSON or a similar text-based serialization format."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dask_cuda/proxy_object.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 442,
+                  "startColumn": 24,
+                  "endLine": 442,
+                  "endColumn": 50,
+                  "snippet": {
+                    "text": "            subclass = pickle.loads(pxy.subclass)"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "7b1ed2a02cb6538e9811fef730503051312b3ac5b54a0e6502cf50e6fd2f0c6a1f8991fbc2def9974325ec1bb2494d584fe7443bf1657e9d2a5948a82aeb4acf_0"
+          },
+          "properties": {}
+        },
+        {
           "ruleId": "5f9cc90b-3b4a-3782-afdc-f7ed10c9bff2",
           "kind": "fail",
           "level": "warning",
@@ -1690,37 +1659,6 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "67e171bb6fb9343167a81d7477e17844475a2fd9fb575a9c2430d72b5e0fc54054e416e7d52f4d47f994d0c389cb9bc3ea1b06aa3f3a6fe1c943f54be5e736ea_2"
-          },
-          "properties": {}
-        },
-        {
-          "ruleId": "978580f1-f9a6-3b84-9b59-87e5348b05b1",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "`pass` is the body of function f. Consider removing this or raise NotImplementedError() if this is a TODO"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "dask_cuda/utils.py",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 387,
-                  "startColumn": 5,
-                  "endLine": 388,
-                  "endColumn": 13,
-                  "snippet": {
-                    "text": "    def f(x):\n        pass"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "8aae00821e7639b1146af90d19324d23f51aef3b3c48ecb1e3af36bbc5c43fc3e7af21aff15c660611dc3e3f44d672a2f803a5c8272b4c5cb7866c236a6204cc_0"
           },
           "properties": {}
         },
@@ -1783,6 +1721,37 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "b6558d41cee38fe14d5fb91b953dc4cb999c651a500d7dcc8b90ed82c485ccd25a7aeb02a386db14d4b9b7acf799acf38624990557da5e7f1c848d5c64553ce4_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "978580f1-f9a6-3b84-9b59-87e5348b05b1",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "`pass` is the body of function f. Consider removing this or raise NotImplementedError() if this is a TODO"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dask_cuda/utils.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 387,
+                  "startColumn": 5,
+                  "endLine": 388,
+                  "endColumn": 13,
+                  "snippet": {
+                    "text": "    def f(x):\n        pass"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "8aae00821e7639b1146af90d19324d23f51aef3b3c48ecb1e3af36bbc5c43fc3e7af21aff15c660611dc3e3f44d672a2f803a5c8272b4c5cb7866c236a6204cc_0"
           },
           "properties": {}
         },
